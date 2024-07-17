@@ -31,9 +31,22 @@ import pyautogui as py
 #time.sleep(2)
 #py.write('edge')
 #py.press('enter')
-time.sleep(5)
-print(py.position())
-py.click(x=84, y=13)
+#time.sleep(5)
+#print(py.position())
+#py.click(x=84, y=13)
 
-
+#numeros = [1,33,3,10,34,544]
+#print(numeros[2])
+#for i in range(6):
+#"i" representa posicao de um dado dentro deu um vetor(por exemplo)
+#    print(numeros[i])
+#nomes = {"julia":"nome_feminino","henrique":"nome_masculino"}
+#nomes.pop("julia")
+#print(nomes)
+numeros = []
+for i in range(10000):
+    if(i % 2 == 0):
+        numeros.append(i)
+        time.sleep(0.0005)
+print(numeros)
 
