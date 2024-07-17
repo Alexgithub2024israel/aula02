@@ -31,7 +31,7 @@ import pyautogui as py
 #time.sleep(2)
 #py.write('edge')
 #py.press('enter')
-#time.sleep(5)
+time.sleep(5)
 print(py.position())
 py.click(x=84, y=13)
 
